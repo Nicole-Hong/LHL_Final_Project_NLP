@@ -1,0 +1,4 @@
+Summary of Scores in Kaggle Leaderboard
+
+Trial#    Validation Scores      Kaggle Score       Kaggle Position
+  1        Avg. 0.62             0.78087              576
