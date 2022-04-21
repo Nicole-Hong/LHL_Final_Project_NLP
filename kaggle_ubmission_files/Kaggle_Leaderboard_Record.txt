@@ -8,5 +8,15 @@ Trial#    Validation Scores   Kaggle Score     Kaggle Position	Note
   5	   Best 0.7800		 0.80355	   250		Fully preprocessed data - SVC Grid Search
   6	   Avg. 0.60		 0.80324	   250		Fully preprocessed data - Logistic Grid Search
   7        Avg. 0.56		 0.64357	   255		Unpreprocessed - BERT
+  8        0.80			 0.79589	   254          Fully preprocessed data - MLP (no PCA)
+  9	   0.80			 0.77719	   254		Fully preprocessed data - MLP Grid Search
+  10       0.79			 0.77198	   254		Fully preprocessed data - MLP, PCA pipeline
+  11       0.79			 0.54152	   254		Fully preprocessed data - Logistic, Scale PCA Grid Search
+  12       0.79			 0.55317	   254		Fully preprocessed data - SVC, Scale PCA Grid Search
+  13       0.79			 	   254		Fully preprocessed data - SVC, no PCA Grid Search
+  14       0.79			 	   254		Fully preprocessed data - Logistic, no PCA Grid Search
+
+
+
 
 
