@@ -13,8 +13,8 @@ Trial#    Validation Scores   Kaggle Score     Kaggle Position	Note
   10       0.79			 0.77198	   254		Fully preprocessed data - MLP, PCA pipeline
   11       0.79			 0.54152	   254		Fully preprocessed data - Logistic, Scale PCA Grid Search
   12       0.79			 0.55317	   254		Fully preprocessed data - SVC, Scale PCA Grid Search
-  13       0.79			 	   254		Fully preprocessed data - SVC, no PCA Grid Search
-  14       0.79			 	   254		Fully preprocessed data - Logistic, no PCA Grid Search
+  13       0.79			 0.77934 	   253		Fully preprocessed data - SVC, no PCA Grid Search
+  14       0.79			 0.78516	   253		Fully preprocessed data - Logistic, no PCA Grid Search
 
 
 
