@@ -3,10 +3,10 @@ Summary of Scores in Kaggle Leaderboard
 Trial#    Validation Scores   Kaggle Score     Kaggle Position	Note
   1        Avg. 0.62             0.78087           576		Unpreprocessed data - Ridge
   2	   Avg. 0.61             0.78240	   558		Fully preprocessed data - Ridge
-  3	   Avg. 0.574111	 0.80355	   249	        Fully preprocessed data - SVC
-  4	   Avg. 0.594088	 0.80355	   249		Fully preprocessed data - Logistic
-  5	   Best 0.7800		 0.80355	   250		Fully preprocessed data - SVC Grid Search
-  6	   Avg. 0.60		 0.80324	   250		Fully preprocessed data - Logistic Grid Search
+  3	   Avg. 0.574111	 0.80355	   249	        Fully preprocessed data - SVC (BOW)
+  4	   Avg. 0.594088	 0.80355	   249		Fully preprocessed data - Logistic (BOW)
+  5	   Best 0.7800		 0.80355	   250		Fully preprocessed data - SVC Grid Search (BOW)
+  6	   Avg. 0.60		 0.80324	   250		Fully preprocessed data - Logistic Grid Search (BOW)
   7        Avg. 0.56		 0.64357	   255		Unpreprocessed - BERT
   8        0.80			 0.79589	   254          Fully preprocessed data - MLP (no PCA)
   9	   0.80			 0.77719	   254		Fully preprocessed data - MLP Grid Search
@@ -18,7 +18,7 @@ Trial#    Validation Scores   Kaggle Score     Kaggle Position	Note
   15       0.83			 0.83144	    97		TensorFlow preprocessed - DistilBERT
   16       --                    0.77627            97          Unpreprocessed - RNN/LSTM
   17       --                    0.77842            97          Fully preprocessed - RNN/LSTM
-
-
-
-
+  18                             0.79129            --    	Fully preprocessed data (v2) - Logistic (BOW)
+  19       --                    0.80049            --    	Fully preprocessed data (v2) - SVC (BOW)
+  20	   --			 0.75145	    --		Fully preprocessed data (v2) - SVC Halving Grid Search (BOW)
+  21	   --			 -------	    --		Fully preprocessed data (v2) - Logistic Grid Search (BOW)
