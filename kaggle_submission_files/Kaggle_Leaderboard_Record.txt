@@ -22,3 +22,4 @@ Trial#    Validation Scores   Kaggle Score     Kaggle Position	Note
   19       --                    0.80049            --    	Fully preprocessed data (v2) - SVC (BOW)
   20	   --			 0.75145	    --		Fully preprocessed data (v2) - SVC Halving Grid Search (BOW)
   21	   --			 -------	    --		Fully preprocessed data (v2) - Logistic Grid Search (BOW)
+  22	   --			 -------	    --		Fully preprocessed data (v2) - SVC Grid Search (BOW)
