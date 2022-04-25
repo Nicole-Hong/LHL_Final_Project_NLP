@@ -16,7 +16,8 @@ Trial#    Validation Scores   Kaggle Score     Kaggle Position	Note
   13       0.79			 0.77934 	   253		Fully preprocessed data - SVC, no PCA Grid Search
   14       0.79			 0.78516	   253		Fully preprocessed data - Logistic, no PCA Grid Search
   15       0.83			 0.83144	    97		TensorFlow preprocessed - DistilBERT
-
+  16       --                    0.77627            97          Unpreprocessed - RNN/LSTM
+  17       --                    -------            97          Fully preprocessed - RNN/LSTM
 
 
 
