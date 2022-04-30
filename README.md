@@ -3,15 +3,18 @@
 
 # NLP Disaster Classification & Sentiment Analysis
 
-This project is based on the ongoing, knowledge-based Kaggle Competition, ['Natural Language Processing (NLP) with Disaster Tweets'](https://www.kaggle.com/competitions/nlp-getting-started/overview/description), that introduces NLP to data scientists. Is is designed to test and learn machine learning algorithms and techniques related to NLP wuth small datatsets that do not require much personal computing power.
+This project is based on the ongoing, knowledge-based Kaggle Competition, ['Natural Language Processing (NLP) with Disaster Tweets'](https://www.kaggle.com/competitions/nlp-getting-started/overview/description), that introduces NLP to data scientists. It is designed to test and learn machine learning algorithms and techniques related to NLP with small datatsets that do not require much personal computing power.
 
-Text classification that predicts 
+I used this Kaggle competition to develop the base model for the [Emergency Reseponse Management System](https://www.publicsafety.gc.ca/cnt/mrgnc-mngmnt/index-en.aspx) that utilized text classification and sentiment analysis on Twitter API, where text classification predicts and identify which tweets are related to disasters and which tweets are not. Sentiment analysis was used to determine the disaster ratings and disaster classes/sub-classes from the polarity of tweets'sentiment scores, topic modeling for keywords and url extraction.
 
-  * Please add all project Award numbers to the Badges above.  This will allow us to crawl and add these repositories to the graph, and also show NSF that we are being good citizens.
-  * Please ensure that all contributors from Throughput have ORCIDs and that these are linked below in the contributors section.
-  * Please consider a clear directory structure early on, and report it below in the "How to use this repository".
-  * Please define which data products
+Text classification was the main task of the Kaggle Competition, whereas sentiment analysis was implemented in addition to Kaggle, and for that reason, dataset used from Kaggle was not designed for sentiment analysis, which required pre-trained model such as Vader Sentiment Lexicon to be adopted.
 
+The base model is not fully developed yet due to the following challenges and issues, and will be ongoing project for this year:
+* the model requires large size of Twitter data at least 300,000 tweets. This base model was designed based on the train dataset of 7,613 tweets with target classes manually labeled, and test dataset of 3,263 tweets without target label for text classification
+* Capturing semantic context is the key in this NLP model, which requires more sophisticated model development
+* Disaster class / sub-class are determined from keywords, and there is challenge in coming up with specific keywords through topic modeling. Foe example, general keywords such as 'disaster', 'annihilation' and 'destroyed' results in high negative sentiment score, but these terms are too general for the kind of identification required for the NLP model
+* Tweets with neutral sentiment scores are often linked to severe disaster, which require additional data and information
+* URL extraction is a key part of the model (to be implemented) to deal with neutral tweets, but the model requires a mechanism to filter out URL not significant to disaster
 
 ## How to use this repository
 
