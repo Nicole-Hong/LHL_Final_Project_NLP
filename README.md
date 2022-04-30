@@ -3,7 +3,9 @@
 
 # NLP Disaster Classification & Sentiment Analysis
 
-A short, one paragraph description of the project goes here.
+This project is based on the ongoing, knowledge-based Kaggle Competition, ['Natural Language Processing (NLP) with Disaster Tweets'](https://www.kaggle.com/competitions/nlp-getting-started/overview/description), that introduces NLP to data scientists. Is is designed to test and learn machine learning algorithms and techniques related to NLP wuth small datatsets that do not require much personal computing power.
+
+Text classification that predicts 
 
   * Please add all project Award numbers to the Badges above.  This will allow us to crawl and add these repositories to the graph, and also show NSF that we are being good citizens.
   * Please ensure that all contributors from Throughput have ORCIDs and that these are linked below in the contributors section.
@@ -21,7 +23,7 @@ Th project uses X core information, manages it and passes our some stuff.
 
 ### System Requirements
 
-This project is developed using Python and Jupyter Notebook.  It runs on a Windows system (?).  Continuous integration uses TravisCI (?).
+This project is developed using Python, Jupyter Notebook and Google CoLab.  It runs on a Windows system (?).  Continuous integration uses TravisCI (?).
 
 ### Data Requirements
 
