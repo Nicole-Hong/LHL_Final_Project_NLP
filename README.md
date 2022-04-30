@@ -22,8 +22,8 @@ This repository has the following main directories:
 ### Workflow Overview
 
 For the development the base model, there were two separate procedures for the project workflow as follows:
-* Text classification: I followed the general processes for developing NLP using supervised machine learning, deep learning and transformer models
-* Sentiment Analysis: subsequent to text classification, the Vader Sentiment Lexicon was downloaded, and using this pre-trained model, sentiment scores on Kaggle train dataset were computed, which were then used for various analysis such as disaster classification / ratings, tppic modeling and URL extraction
+* __Text classification:__ I followed the general processes for developing NLP using supervised machine learning, deep learning and transformer models
+* __Sentiment Analysis:__ subsequent to text classification, the Vader Sentiment Lexicon was downloaded, and using this pre-trained model, sentiment scores on Kaggle train dataset were computed, which were then used for various analysis such as disaster classification / ratings, tppic modeling and URL extraction
 
 ![Project Workflow](https://github.com/Nicole-Hong/NLP_DisasterClassification_Sentiment_Analysis/blob/main/images/image_workflow.JPG)
 
@@ -34,7 +34,7 @@ This project has been developed using Python, Jupyter Notebook and Google CoLab,
 
 ### Data Requirements
 
-The base model in thie project was developed, based on Kaggle datasets, where target-labeled, train dataset was imbalanced. I resampled to make train dataset balanced as follows:
+The base model was developed, based on Kaggle datasets, where target-labeled, train dataset was imbalanced. I resampled to make train dataset balanced as follows:
 
 ![Train Data-Target Class](https://github.com/Nicole-Hong/NLP_DisasterClassification_Sentiment_Analysis/blob/main/images/image_target_class.JPG)
 
