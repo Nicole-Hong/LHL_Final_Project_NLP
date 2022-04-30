@@ -51,7 +51,7 @@ The project's main metrics were f1 and accuracy scores - KAggle platform compute
 
 ## Future Direction
 
-The base model is not fully developed yet due to the following challenges and issues, and will be ongoing project for this year:
+The base model is not fully developed yet due to the following challenges and issues, and will be an ongoing project for this year:
 
 * The model to be completed requires large size of Twitter data at least 300,000 tweets.
 * Capturing semantic context is the key in this NLP model, which requires more sophisticated model development.
