@@ -55,6 +55,6 @@ The base model is not fully developed yet due to the following challenges and is
 
 * The model to be completed requires large size of Twitter data at least 300,000 tweets.
 * Capturing semantic context is the key in this NLP model, which requires more sophisticated model development.
-* Disaster class / sub-class are determined from keywords, and there is challenge in coming up with specific keywords through topic modeling. Foe example, general keywords such as 'disaster', 'annihilation' and 'destroyed' results in high negative sentiment score, but these terms are too general for the kind of identification required for the NLP model.
+* Disaster class / sub-class are determined from keywords, and there is a challenge in coming up with specific keywords through topic modeling. Foe example, general keywords such as 'disaster', 'annihilation' and 'destroyed' results in high negative sentiment score, but these terms are too general for the kind of identification required for the NLP model.
 * Tweets with neutral sentiment scores are often linked to severe disaster, which require additional data and information.
 * URL extraction is a key part of the model (to be implemented) to deal with neutral tweets, but the model requires a mechanism to filter out URL not significant to disaster.
