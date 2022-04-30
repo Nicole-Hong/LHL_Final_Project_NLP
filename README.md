@@ -13,7 +13,7 @@ Text classification was the main task of the Kaggle Competition, whereas sentime
 
 This repository has the following main directories:
 
-* __data:___ Kaggle train/test data, preprocessed text data, pre-trained model for Transformer Model & other preparatory files for model development
+* __data:__ Kaggle train/test data, preprocessed text data, pre-trained model for Transformer Model & other preparatory files for model development
 * __figures:__ visualizations generated from EDA and sentiment analysis
 * __kaggle_submission_files:__ summary of Kaggle scores / leaderboard status & Kaggle submission files
 * __src:__ code for text preprocessing, model development & sentiment analysis
