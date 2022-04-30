@@ -9,38 +9,50 @@ I used this Kaggle competition to develop the base model for the [Emergency Rese
 
 Text classification was the main task of the Kaggle Competition, whereas sentiment analysis was implemented in addition to Kaggle, and for that reason, dataset used from Kaggle was not designed for sentiment analysis, which required pre-trained model such as Vader Sentiment Lexicon to be adopted.
 
-The base model is not fully developed yet due to the following challenges and issues, and will be ongoing project for this year:
-* the model requires large size of Twitter data at least 300,000 tweets. This base model was designed based on the train dataset of 7,613 tweets with target classes manually labeled, and test dataset of 3,263 tweets without target label for text classification
-* Capturing semantic context is the key in this NLP model, which requires more sophisticated model development
-* Disaster class / sub-class are determined from keywords, and there is challenge in coming up with specific keywords through topic modeling. Foe example, general keywords such as 'disaster', 'annihilation' and 'destroyed' results in high negative sentiment score, but these terms are too general for the kind of identification required for the NLP model
-* Tweets with neutral sentiment scores are often linked to severe disaster, which require additional data and information
-* URL extraction is a key part of the model (to be implemented) to deal with neutral tweets, but the model requires a mechanism to filter out URL not significant to disaster
-
 ## How to use this repository
 
-A description of the files and directory structure in the repository.
+This repository has the following main directories:
+
+* data: Kaggle train/test data, preprocessed text data, pre-trained model for Transformer Model & other preparatory files for model development
+* figures: visualizations generated from EDA and sentiment analysis
+* kaggle_submission_files: summary of Kaggle scores / leaderboard status & Kaggle submission files
+* src: code for text preprocessing, model development & sentiment analysis
+* images: diagrams created for summary of processes and components
 
 ### Workflow Overview
 
-Th project uses X core information, manages it and passes our some stuff.
+For the development the base model, there were two separate procedures for the project workflow as follows:
+* Text classification: I followed the general processes for developing NLP using supervised machine learning, deep learning and transformer models
+* Sentiment Analysis: subsequent to text classification, the Vader Sentiment Lexicon was downloaded, and using this pre-trained model, sentiment scores on Kaggle train dataset were computed, which were then used for various analysis such as disaster classification / ratings, tppic modeling and URL extraction
 
 ![Project Workflow](https://github.com/Nicole-Hong/NLP_DisasterClassification_Sentiment_Analysis/blob/main/images/image_workflow.JPG)
 
 
 ### System Requirements
 
-This project is developed using Python, Jupyter Notebook and Google CoLab.  It runs on a Windows system (?).  Continuous integration uses TravisCI (?).
+This project has been developed using Python, Jupyter Notebook and Google CoLab, which are run on a Windows system. For Deep Learning and Transformer Models, GPU / TPU in Google CoLab were required.
 
 ### Data Requirements
 
-The project pulls data from (?).
+The base model in thie project was developed, based on Kaggle datasets, where target-labeled, train dataset was imbalanced. I resampled to make train dataset balanced as follows:
+
 ![Train Data-Target Class](https://github.com/Nicole-Hong/NLP_DisasterClassification_Sentiment_Analysis/blob/main/images/image_target_class.JPG)
 
 
 ### Key Outputs
 
-This project generates (an API, some log files, what?)
+The key outpus for the base model are the predictions made from text classification and sentiment scores that determines the severity of disaster. The model will be further developed to facilitate the action to trigger the effective response for the Emergency Management Cycle.
 
 ## Metrics
 
-This project is to be evaluated using the following metrics. . .
+The project's main metrics were f1 and accuracy scores - KAggle platform computed f1 scores as the main performance evaluation of text classification.
+
+## Future Direction
+
+The base model is not fully developed yet due to the following challenges and issues, and will be ongoing project for this year:
+
+* The model to be completed requires large size of Twitter data at least 300,000 tweets. This base model was designed based on the train dataset of 7,613 tweets with target classes manually labeled, and test dataset of 3,263 tweets without target label for text classification
+* Capturing semantic context is the key in this NLP model, which requires more sophisticated model development
+* Disaster class / sub-class are determined from keywords, and there is challenge in coming up with specific keywords through topic modeling. Foe example, general keywords such as 'disaster', 'annihilation' and 'destroyed' results in high negative sentiment score, but these terms are too general for the kind of identification required for the NLP model
+* Tweets with neutral sentiment scores are often linked to severe disaster, which require additional data and information
+* URL extraction is a key part of the model (to be implemented) to deal with neutral tweets, but the model requires a mechanism to filter out URL not significant to disaster
