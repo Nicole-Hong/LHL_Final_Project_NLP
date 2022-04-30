@@ -1,5 +1,5 @@
 [![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
-[![NSF-XXXXXXX](https://img.shields.io/badge/NSF-XXXXXXX-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=XXXXXXX) [![NSF-XXXXXXX](https://img.shields.io/badge/NSF-XXXXXXX-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=XXXXXXX)
+[![NSF-XXXXXXX](https://img.shields.io/badge/NSF-XXXXXXX-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=XXXXXXX) 
 
 # NLP Disaster Classification & Sentiment Analysis
 
@@ -24,6 +24,9 @@ A description of the files and directory structure in the repository.
 
 Th project uses X core information, manages it and passes our some stuff.
 
+![Project Workflow](https://github.com/Nicole-Hong/NLP_DisasterClassification_Sentiment_Analysis/blob/main/images/image_workflow.JPG)
+
+
 ### System Requirements
 
 This project is developed using Python, Jupyter Notebook and Google CoLab.  It runs on a Windows system (?).  Continuous integration uses TravisCI (?).
@@ -31,6 +34,8 @@ This project is developed using Python, Jupyter Notebook and Google CoLab.  It r
 ### Data Requirements
 
 The project pulls data from (?).
+![Train Data-Target Class](https://github.com/Nicole-Hong/NLP_DisasterClassification_Sentiment_Analysis/blob/main/images/image_target_class.JPG)
+
 
 ### Key Outputs
 
