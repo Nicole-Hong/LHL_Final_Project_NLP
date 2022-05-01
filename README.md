@@ -60,6 +60,6 @@ The base model is not fully developed yet due to the following challenges and is
 * Tweets with neutral sentiment scores are often linked to severe disaster, which require additional data and information.
 * URL extraction is a key part of the model (to be implemented) to deal with neutral tweets, but the model requires a mechanism to filter out URL not significant to disaster.
 
-#### Disaster Classes/Sub-classes Identified from Data, which will be the base for the categorization for the future work:
+#### Disaster Classes/Sub-classes Identified from Data, which will be the basis for the categorization for the future work:
 
 ![Disaster Class](https://github.com/Nicole-Hong/NLP_DisasterClassification_Sentiment_Analysis/blob/main/images/image_disasterclass.JPG)
