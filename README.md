@@ -45,9 +45,11 @@ Target-labeled, train dataset was imbalanced, and I resampled to make train data
 
 The key outpus for the base model are the predictions made from text classification and sentiment scores that determines the severity of disaster. The model will be further developed to facilitate the action to trigger the effective response for the Emergency Management Cycle.
 
+![Emergency Management](https://github.com/Nicole-Hong/NLP_DisasterClassification_Sentiment_Analysis/blob/main/images/image_emergencymgmtsys.JPG)
+
 ## Metrics
 
-The project's main metrics were f1 and accuracy scores - KAggle platform computed f1 scores as the main performance evaluation of text classification.
+The project's main metrics were f1 and accuracy scores - Kaggle platform computed f1 scores as the main performance evaluation of text classification.
 
 ## Future Direction
 
