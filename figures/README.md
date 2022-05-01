@@ -1,3 +1,3 @@
 # Project Figures
 
-This folder is primarily for any project figures.
+Visualizations generated from EDA, Machine Learning Model Development & Sentiment Analysis
