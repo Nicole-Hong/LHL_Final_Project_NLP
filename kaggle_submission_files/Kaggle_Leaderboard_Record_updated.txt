@@ -23,3 +23,4 @@ Trial#    Validation Scores   Kaggle Score     Kaggle Position	Note
   20	   --			 0.75145	    --		Fully preprocessed data (v2) - SVC Halving Grid Search (BOW)
   21	   --			 -------	    --		Fully preprocessed data (v2) - Logistic Grid Search (BOW)
   22	   --			 -------	    --		Fully preprocessed data (v2) - SVC Grid Search (BOW)
+  23       0.8436                0.83726	    56          Unpreprocessed - ROBERTA
