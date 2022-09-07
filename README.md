@@ -21,7 +21,7 @@ This repository has the following main directories:
 ### Workflow Overview
 
 For developing the base model, there were two separate procedures for the project workflow as follows:
-* __Text classification:__ I followed the general processes for developing NLP using supervised machine learning, deep learning and transformer models
+* __Text classification:__ I followed the general processes for developing NLP using various supervised machine learning, deep learning and transformer models
 * __Sentiment Analysis:__ subsequent to text classification, the Vader Sentiment Lexicon was downloaded, and using this pre-trained model, sentiment scores on Kaggle train dataset were computed, which were then used for various analysis such as disaster classification / ratings, topic modeling and URL extraction
 
 ![Kaggle Workflow](https://github.com/Nicole-Hong/NLP_DisasterClassification_Sentiment_Analysis/blob/main/images/image_workflowv2.JPG)
